@@ -1,6 +1,10 @@
 body{
+    padding: 0px;
+    margin: 0px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: rgb(226, 226, 226);
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
@@ -16,13 +20,23 @@ section{
     border-radius: 2px;
     box-shadow: rgba(0, 0, 0, 0.199) 2px 3px;
 }
-header{
+section header{
     background-color: lightblue;
     display: flex;
     justify-content: space-around;
     min-height: 80px;
 }
 
+#header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(64, 143, 216);
+    width: 100%;
+}
+
+#lang a {
+    color:white
+}
 header img{
     height: 10vh;
 }
